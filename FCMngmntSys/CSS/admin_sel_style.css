@@ -1,0 +1,20 @@
+﻿body {
+}
+
+h1{
+    text-align:center;
+    text-decoration:none;
+}
+
+.entrance{
+    border:solid black medium;
+    width:30%;
+    height:400px;
+    margin:50px 10px auto 5px;
+    float:left;
+}
+
+#box{
+    position:relative;
+    left:35px;
+}

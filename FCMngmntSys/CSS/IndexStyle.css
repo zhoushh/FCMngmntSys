@@ -1,0 +1,71 @@
+﻿/* CSS Document */
+*{
+	font-family:"微软雅黑";
+}
+
+/*******表单样式*******/
+#loginBox{
+	margin:5% auto;
+	/*text-align:right;*/
+}
+
+/*#loginBox tr{
+	text-align:right;
+}/*解决IE下右对齐兼容性问题*/
+
+#loginBox tr{
+	height:40px;
+}
+
+#loginBox input{
+	margin:auto;
+}
+
+/*******修饰样式*******/
+body{
+	background-image:url(../pic/bg_stadium.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#mainBox{
+	margin:11.5% auto auto auto;
+	width:40%;
+	height:300px;
+	background-color:white;
+	-moz-border-radius:10%;
+	-webkit-border-radius:10%;
+	border-radius:10%;
+	border-color:orange;
+	border-width:3px;
+	border-style:solid;
+	filter:alpha(opacity=85);
+	opacity:0.85;
+}
+
+.buttons{
+	width:80px;
+	height:30px;
+	background-color:#B9C0CB;
+	border-color:black;
+	border-width:2px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.buttons:hover{
+	cursor:pointer;
+}
+
+#bottom{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:100%;
+	height:50px;
+	color:#fff;
+	text-align:center;
+	background:gray;
+}
